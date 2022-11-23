@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Ефим Григорьев](https://up.htmlacademy.ru/adaptive/27/user/2099333).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
