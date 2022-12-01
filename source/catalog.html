@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo" href="#">
+        <img
+          src="../source/img/main-logo.svg"
+          width="185"
+          height="96"
+          alt="Седона"
+        />
+      </a>
+      <nav class="main-navigation">
+        <button class="main-navigation__toggle" type="button">
+          <span class="visually-hidden">Открыть меню.</span>
+        </button>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a href="#"> Главная </a>
+          </li>
+          <li class="main-navigation__item main-navigation__item--active">
+            <a href="catalog.html"> Фото и видео </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="form.html"> Форма отзыва </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#"> Html Academy </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h1 class="main__title">Фото и видео</h1>
+      <section class="foto-gallery">
+        <h2 class="visually-hidden">Галерея с фото</h2>
+        <div class="foto-gallery__wrapper">
+          <p class="foto-gallery__description">
+            Не можете решиться на путешествие из-за курса?<br />
+            Фотографии помогут вам забыть о политике и экономике.
+          </p>
+          <ul class="foto-gallery__list card">
+            <li class="card__item">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__title">Неродные просторы</h3>
+              <p class="card__description">Автор фото: Борис</p>
+              <button class="card__favorite" type="button">1350</button>
+            </li>
+            <li class="card__item">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__title">Местная растительность</h3>
+              <p class="card__description">Автор фото: Сергей</p>
+              <button class="card__favorite" type="button">143</button>
+            </li>
+            <li class="card__item">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__title">Дорога на север</h3>
+              <p class="card__description">Автор фото: Петр</p>
+              <button class="card__favorite" type="button">96</button>
+            </li>
+            <li class="card__item">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__title">Мост дьявола</h3>
+              <p class="card__description">Автор фото: Антон</p>
+              <button class="card__favorite" type="button">254</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="video-gallery">
+        <h2 class="visually-hidden">Галерея с видео</h2>
+        <div class="video-gallery__wrapper">
+          <p class="video-gallery__slogan">Все еще сомневаетесь?</p>
+          <p class="video-gallery__description">
+            Смотрите видеопрезентацию и скорее за билетами, пока они не
+            подорожали в очередной раз!
+          </p>
+          <video class="video-gallery__player" src=""></video>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__wrapper">
+        <p class="main-footer__hashtag">#visitsedona</p>
+        <div class="main-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a
+                class="social__link social__link--vkontakte"
+                href="https://vk.com/htmlacademy"
+                >Мы в Вконтакте</a
+              >
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--telegram"
+                href="https://t.me/htmlacademy"
+                >Мы в Телеграме</a
+              >
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link--youtube"
+                href="https://www.youtube.com/user/htmlacademyru"
+                >Мы в Ютубе</a
+              >
+            </li>
+          </ul>
+        </div>
+        <a
+          class="main-footer__copyright copyright"
+          href="https://htmlacademy.ru/intensive/adaptive"
+        >
+          <p class="copyright__text">Разработано</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="29"
+            fill="none"
+            class="copyright__logo"
+          >
+            <path
+              fill="#81B3D2"
+              d="M12.13 0h-.09L0 1.2v21L12.04 29 24 22.2v-21L12.13 0ZM22.3 10.29 12.04 4.51v-.09h-.08l-.1-.08v.08L1.7 10.3V2.64l10.26-1.02L22.3 2.64v7.65Zm-10.34-4.5 10.26 5.7-4.02 2.2-6.33-3.57v1.2l5.26 2.97-.8.42-4.46-2.55v1.2l3.39 1.95-.72.42-2.67-1.53v1.2l1.7.93-1.61.93-10.18-5.7 10.18-5.78ZM1.7 12.83l10.17 5.78v.86l-7.05-4v1.19l7.14 4.08v.94l-7.14-4v1.19l7.14 4.08 7.22-4.17v-4.42l3.04-1.7v8.5l-10.26 5.87L1.7 21.26v-8.42Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
