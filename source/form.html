@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -20,16 +21,16 @@
         </button>
         <ul class="main-navigation__list">
           <li class="main-navigation__item">
-            <a href="#"> Главная </a>
+            <a class="main-navigation__link" href="#"> Главная </a>
           </li>
           <li class="main-navigation__item main-navigation__item--active">
-            <a href="catalog.html"> Фото и видео </a>
+            <a class="main-navigation__link" href="catalog.html"> Фото и видео </a>
           </li>
           <li class="main-navigation__item">
-            <a href="form.html"> Форма отзыва </a>
+            <a class="main-navigation__link" href="form.html"> Форма отзыва </a>
           </li>
           <li class="main-navigation__item">
-            <a href="#"> Html Academy </a>
+            <a class="main-navigation__link" href="#"> Html Academy </a>
           </li>
         </ul>
       </nav>
@@ -41,7 +42,7 @@
           <header class="review__header">
             <h2 class="review__title">Оставьте свой отзыв</h2>
             <p class="review__text">
-              Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
+              Помогите нашим отелям стать лучше! оставьте отзыв о них,<br> а также о
               посещенных вами достопримечательностях
             </p>
           </header>
@@ -85,7 +86,7 @@
               </li>
               <li class="feedback-forms__item contacts">
                 <h3 class="contacts__title">Контактная информация:</h3>
-                <label for="сontacts__text">
+                <label class="сontacts__text">
                   Контактный телефон<sup>*</sup>:
                   <input
                     class="contacts__field"
@@ -96,7 +97,7 @@
                     required
                   />
                 </label>
-                <label for="сontacts__text">
+                <label class="сontacts__text">
                   Электронная почта<sup>*</sup>:
                   <input
                     class="contacts__field"
@@ -147,7 +148,7 @@
                 <textarea class="emotions__text-field" name="emotions" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
               </li>
             </ul>
-            <button class="feedback-forms__button" type="submit">
+            <button class="feedback-forms__button button" type="submit">
               Отправить отзыв
             </button>
             <p class="feedback-forms__legend">
