@@ -1,20 +1,18 @@
 .reserve__question {
-  font-family: "PT Sans", sans-serif;
+  font-family: @fonts;
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
+  color: @title-text-color;
 }
 
 .reserve__description {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-family: @fonts;
+  .main-text-style();
   line-height: 21px;
   text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+  color: @main-text-color;
 }

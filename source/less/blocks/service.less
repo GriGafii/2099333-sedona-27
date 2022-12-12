@@ -1,20 +1,13 @@
 .service__title {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: @fonts;
+  .title-text-style();
   text-align: center;
-  text-transform: uppercase;
+  color: @title-text-color;
 }
 
 .service__description {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-family: @fonts;
+  .main-text-style();
   text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+  color: @main-text-color;
 }

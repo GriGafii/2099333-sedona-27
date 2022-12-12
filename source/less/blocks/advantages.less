@@ -1,22 +1,15 @@
 .advantages__slogan {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: @fonts;
+  .title-text-style();
   text-align: center;
-  text-transform: uppercase;
+  color: @title-text-color;
 }
 
 .advantages__intro {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-family: @fonts;
+  .main-text-style();
   text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+  color: @main-text-color;
 }
 
 .advantages__list {
@@ -26,54 +19,43 @@
 }
 
 .advantages__title {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: @fonts;
+  .title-text-style();
   text-align: center;
-  text-transform: uppercase;
+  color: @title-text-color;
 
   &--popular {
-    color: #FFFFFF;;
+    color: @another-text-color;
   }
 }
 
 .advantages__number {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-family: @fonts;
+  .main-text-style();
   text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+  color: @main-text-color;
 
   &--popular {
-    color: #FFFFFF;;
+    color: @another-text-color;
   }
 }
 
 .advantages__description {
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-family: @fonts;
+  .main-text-style();
   text-align: center;
-  text-transform: uppercase;
-  color: #333333;
+  color: @main-text-color;
 
   &--popular {
-    color: #FFFFFF;;
+    color: @another-text-color;
   }
 }
 
 .advantages__item {
-  background-color: #EEEEEE;
+  background-color: @another-background-color;
 
   &--popular {
-    background-color: #81B3D2;
+    background-color: @main-background-color;
   }
 }
 
